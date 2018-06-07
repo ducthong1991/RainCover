@@ -1,0 +1,129 @@
+.oder-summary {
+    .progress {
+        height: 9px;
+        background-color: #edefed;
+        .finish-progress {
+            width: 80%;
+            background-color: #3ba18d;
+        }
+    }
+
+    .pick-date-section {
+        height: 285px;
+        border-radius: 5px;
+        background-color: #2b3038;
+        margin-top: 20px;
+
+        .label-section {
+            padding-top: 35px;
+        }
+
+        .title-text {
+            font-size: 20px;
+            color: #ffffff;
+
+            span {
+                color: #888888;
+            }
+        }
+
+        .second-section {
+            padding-top: 8px;
+
+            .date-time {
+                font-size: 26px;
+                font-weight: bold;
+                color: #00b58c;
+                span {
+                    color: white;
+                }
+            }
+
+            .btn-change-date {
+                width: 222px;
+            }
+
+            .money {
+                font-size: 48px;
+                font-weight: bold;
+                color: #ffffff;
+            }
+
+            .detail-text {
+                font-size: 18px;
+                letter-spacing: normal;
+                color: white;
+                span {
+                    color: #888888;
+                }
+            }
+
+            .green-line {
+                height: 1px;
+                background-color: #00b18e;
+                margin-top: -25px;
+            }
+        }
+    }
+
+    .step-section {
+        padding-top: 64px;
+        padding-bottom: 10px;
+        .step-text {
+            font-size: 28px;
+            font-weight: 900;
+            color: #484848;
+        }
+    }
+
+    .table-section {
+        padding-top: 40px;
+
+        .order-table {
+            line-height: 16px;
+            .third-column {
+                width: 320px;
+            }
+            th {
+                border-top: none;
+                border-bottom: none;
+                font-size: 16px;
+                font-weight: bold;
+                color: #484848;
+            }
+
+            tr {
+                font-size: 16px;
+                color: #484848;
+            }
+        }
+
+        .total-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #484848;
+        }
+    }
+
+    .promo-code-section {
+        padding-top: 10px;
+        padding-bottom: 80px;
+        .promo-text {
+            font-size: 20px;
+            color: #2b3038;
+        }
+
+        .promo-input {
+            width: 191px;
+            height: 46px;
+            border-radius: 3px;
+            font-size: 20px;
+            border: solid 2px #dddddd;
+        }
+    }
+
+    .btn-checkout {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

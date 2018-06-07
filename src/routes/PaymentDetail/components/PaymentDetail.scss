@@ -1,0 +1,95 @@
+.payment-detail {
+    .progress {
+        height: 9px;
+        background-color: #edefed;
+        .finish-progress {
+            width: 90%;
+            background-color: #3ba18d;
+        }
+    }
+
+    .step-section {
+        padding-top: 64px;
+        padding-bottom: 10px;
+        .step-text {
+            font-size: 28px;
+            font-weight: 900;
+            color: #484848;
+        }
+    }
+
+    .detail-section {
+        height: 334px;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        margin-top: 20px;
+
+        padding: 15px 21px 15px 15px;
+
+        .visa-img {
+            width: 243px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        label, input {
+            font-size: 20px;
+            color: #2b3038;
+        }
+
+        label {
+            margin-bottom: 2px;
+        }
+
+        .form-group {
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+
+        input, select {
+            border-radius: 3px;
+            background-color: #ffffff;
+            border: solid 2px #dddddd;
+            height: 46px !important;
+        }
+
+        .has-icon {
+            display: inline;
+        }
+
+        .fa-lock {
+            position: absolute;
+            margin-top: 43px;
+            padding-right: 0px;
+            right: 50px;
+            color: #d8d8d8;
+            font-size: 22px;
+        }
+
+        .fa-question-circle {
+            position: absolute;
+            margin-top: 43px;
+            padding-right: 0px;
+            right: 25px;
+            color: #d8d8d8;
+            font-size: 24px;
+        }
+    }
+
+    .form-check-label {
+        font-size: 20px;
+        color: #484848;
+        margin-top: -6px;
+        margin-left: 10px;
+    }
+
+    .form-check {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-checkout {
+        width: 100%;
+        margin-bottom: 130px;
+    }
+}

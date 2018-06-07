@@ -1,0 +1,67 @@
+.page-layout__viewport {
+    //padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.page-footer {
+    height: 245px;
+    background-color: #fafafa;
+
+    .header-footer {
+        padding-top: 38px;
+        font-size: 16px;
+        color: #484848;
+        font-weight: bold;
+    }
+
+    .item-footer {
+        font-size: 16px;
+        line-height: 1.38;
+        color: #767676;
+        a {
+            color: #767676;
+        }
+    }
+
+    .first-item {
+        padding-top: 20px;
+    }
+
+    .break-line {
+        height: 1px;
+        background-color: #d8d8d8;
+    }
+
+    .div-copyright {
+        margin-top: 25px;
+        padding-top: 15px;
+        border-top: 1px solid #d8d8d8;
+    }
+
+    .social-media-img {
+        width: 85px;
+        height: 18px;
+        object-fit: contain;
+        mix-blend-mode: darken;
+        margin-top: 45px;
+    }
+
+    .droplet-logo {
+        width: 85px;
+        height: 14px;
+        object-fit: contain;
+        margin-right: 15px;
+    }
+
+    .income-logo {
+        width: 163px;
+        height: 46px;
+        object-fit: contain;
+        float: right;
+    }
+}
+

@@ -1,0 +1,243 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.div-navigate {
+    height: 60px;
+}
+
+.pagination-active .page-link {
+    color: #014c8c;
+    background-color: #eceeef;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.pointer, .clickable {
+    cursor: pointer;
+}
+
+.green-checkbox {
+    .checkbox {
+        margin: 50px auto;
+        position: relative;
+        display: block;
+        width: 100px;
+    }
+
+    input[type="checkbox"] {
+        width: auto;
+        opacity: 0.00000001;
+        position: absolute;
+        left: 0;
+        margin-left: -20px;
+    }
+    .helper {
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        user-select: none;
+        color: #e7e7e7;
+    }
+    .helper:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 4px;
+        width: 22px;
+        height: 22px;
+        transition: transform 0.28s ease;
+        border-radius: 2px;
+        border: 1px solid #979797;
+    }
+    .helper:after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 5px;
+        border-bottom: 2px solid #398287;
+        border-left: 2px solid #398287;
+        -webkit-transform: rotate(-45deg) scale(0);
+        -moz-transform: rotate(-45deg) scale(0);
+        -ms-transform: rotate(-45deg) scale(0);
+        transform: rotate(-45deg) scale(0);
+        position: absolute;
+        top: 12px;
+        left: 10px;
+    }
+    input[type="checkbox"]:checked ~ .helper::before {
+        color: #7bbe72;
+    }
+
+    input[type="checkbox"]:checked ~ .helper::after {
+        -webkit-transform: rotate(-45deg) scale(1);
+        -moz-transform: rotate(-45deg) scale(1);
+        -ms-transform: rotate(-45deg) scale(1);
+        transform: rotate(-45deg) scale(1);
+    }
+
+    .checkbox label {
+        min-height: 24px;
+        padding-left: 35px;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+        vertical-align: sub;
+    }
+    input[type="checkbox"]:focus + label::before {
+        outline: rgb(59, 153, 252) auto 5px;
+    }
+}
+
+.header-section {
+    height: 81px;
+    background-color: #fafafa;
+
+    .header-items{
+        padding-top: 29px;
+        padding-left: 90px;
+        padding-right: 134px;
+    }
+
+    .droplet-logo {
+        width: 138.5px;
+        height: 22.3px;
+        cursor: pointer;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .logout-img {
+        width: 25px;
+        height: 26.5px;
+        opacity: 0.66;
+    }
+
+    .name-text {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: right;
+        color: #484848;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slash-div {
+        display:inline;
+        border-left: 2px solid #dbdbdb;
+        height: 33px;
+    }
+}
+
+.list-menu {
+    padding-top: 20px;
+    a, label {
+        font-size: 16px;
+        line-height: 1.06;
+        color: #767676;
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
+
+.rdrDefinedRangesWrapper, .rdrMonthAndYearWrapper {
+    display: none !important;
+}
+
+.rdrDateRangePickerWrapper {
+    position: relative;
+    z-index: 99999;
+}
+
+.date-popup-narrow {
+    position: relative;
+    margin-left: 10px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    z-index: 99999;
+}
+
+.date-range-picker-modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 99998;
+}
+
+.date-picker-footer {
+    position: relative;
+    width: 664px;
+    border-top: 1px solid #e9ecef;
+    background-color: #f5f5f5;
+    height: 50px;
+    z-index: 99999;
+
+    .btn-close {
+        float: right;
+        margin-right: 20px;
+        margin-top: 5px;
+        width: 73px;
+        height: 36px;
+        border-radius: 4px;
+        background-color: #fff;
+        font-weight: 700;
+        text-align: center;
+        color: #484848;
+    }
+}
+
+.btn-green {
+    height: 57px;
+    border-radius: 4px;
+    background-color: #3ba18d;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}

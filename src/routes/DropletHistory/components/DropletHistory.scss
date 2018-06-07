@@ -1,0 +1,152 @@
+.droplet-history {
+    .history-container {
+        padding-top: 65px;
+        padding-bottom: 20px;
+
+        .btn-white {
+            width: 90%;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 1px #c4c4c4;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: #484848;
+            background-color: white;
+            margin-bottom: 10px;
+        }
+
+        .history-section {
+            border: solid 1px #dde0e0;
+
+            .title-section {
+                height: 48px;
+                background-color: #edefed;
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+
+            .title-text {
+                font-size: 18px;
+                color: #484848;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+
+            .date-section {
+                margin-top: 20px;
+            }
+
+            .select-year {
+                width: 90px;
+                float: left;
+                display: inline;
+            }
+
+            .select-from {
+                margin-left: 5px;
+                display: inline;
+                width: 150px;
+            }
+
+            .table-section {
+                padding-top: 27px;
+                font-size: 16px;
+                color: #484848;
+                line-height: 23px;
+
+                .highlight-row {
+                    background-color: #f8f8f8;
+                }
+
+                .policy-text {
+                    font-weight: bold;
+                    color: #3ba18d;
+                    text-decoration: underline;
+                }
+
+                .green-text {
+                    color: #3ba18d;
+                    text-decoration: underline;
+
+                    p {
+                        margin-bottom: 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .table-profile {
+        th {
+            border-top: none;
+        }
+
+        td {
+            border-bottom: 1px solid #dee2e6;
+        }
+    }
+
+    .view-more {
+        font-size: 16px;
+        color: #43a592;
+        text-decoration: underline;
+        padding-bottom: 45px;
+        padding-top: 10px;
+    }
+}
+
+.grab-img {
+    width: 522px;
+    height: 550px;
+    object-fit: contain;
+}
+
+.grab-modal {
+    width: 560px !important;
+    background-color: #f5f5f5;
+    border: solid 1px #dde0e0;
+    .modal-header {
+        height: 48px;
+        background-color: #edefed;
+    }
+
+    .modal-title {
+        font-size: 18px;
+        color: #484848;
+        line-height: 1.0;
+    }
+}
+
+.transaction-modal {
+    width: 668px;
+    height: 273px;
+    background-color: #f5f5f5;
+    border: solid 1px #dde0e0;
+    .modal-header {
+        height: 48px;
+        background-color: #edefed;
+    }
+
+    .modal-title {
+        font-size: 18px;
+        color: #484848;
+        line-height: 1.0;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.btn-close {
+    width: 73px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #484848;
+}
